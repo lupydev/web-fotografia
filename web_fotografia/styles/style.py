@@ -37,4 +37,20 @@ BASE_STYLE = {
     "line_height": Size.LARGE.value,
     "color": TextColor.BODY.value,
     "background_color": Color.BACKGROUND.value,
+    rx.link: {
+        "font_weight": "bold",
+        "color": TextColor.TITLE.value,
+        "_hover": {
+            "color": Color.SECUNDARY.value,
+        },
+    },
 }
+
+navbar = dict(
+    max_width="64em",
+    margin="0 auto",
+    padding="1em 2em",
+    border_bottom_left_radius=Size.DEFAULT.value,
+    border_bottom_right_radius=Size.DEFAULT.value,
+    bg=Color.PRIMARY.value,
+)
